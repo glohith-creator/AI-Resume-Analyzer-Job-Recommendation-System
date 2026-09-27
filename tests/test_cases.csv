@@ -1,0 +1,26 @@
+Test Case,Input,Expected Result,Status
+TC01,Upload valid PDF resume,Resume is uploaded successfully,Pass
+TC02,Upload valid DOCX resume,Resume is uploaded successfully,Pass
+TC03,Upload unsupported TXT file,System rejects unsupported format,Pass
+TC04,Upload PDF containing text,Resume text is extracted,Pass
+TC05,Resume contains Python,Python is detected as a skill,Pass
+TC06,Resume contains SQL,SQL is detected as a skill,Pass
+TC07,Resume contains Machine Learning,Machine Learning is detected as a skill,Pass
+TC08,Resume contains Pandas and NumPy,Both skills are detected,Pass
+TC09,Resume contains Power BI,Power BI is detected as a skill,Pass
+TC10,Resume contains Git and GitHub,Both skills are detected,Pass
+TC11,Analyze uploaded resume,Job-role match scores are generated,Pass
+TC12,Resume analyzed against five roles,Five role scores are displayed,Pass
+TC13,Resume analysis completed,Top 3 recommended roles are displayed,Pass
+TC14,Select Machine Learning Engineer,Matched and missing skills are displayed,Pass
+TC15,Select Data Analyst,Skill-gap analysis is displayed,Pass
+TC16,Select target role,Learning roadmap is generated,Pass
+TC17,Resume contains no recognized skills,System displays appropriate warning,Pass
+TC18,Resume contains multiple technical skills,Multiple skills are displayed in dashboard,Pass
+TC19,Analyze same resume again,Consistent analysis results are produced,Pass
+TC20,View extracted resume text,Extracted resume text is displayed,Pass
+TC21,View methodology section,System displays matching methodology,Pass
+TC22,Upload empty or unreadable resume,System displays an extraction error,Pass
+TC23,Resume contains skills for multiple roles,Multiple job roles receive match scores,Pass
+TC24,Resume with missing target-role skills,Missing skills and roadmap are displayed,Pass
+TC25,Complete analysis workflow,Upload through roadmap works successfully,Pass
