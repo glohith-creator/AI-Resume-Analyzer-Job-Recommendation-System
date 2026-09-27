@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Resume Analyzer and Job Recommendation System
 
 ## 1. Project Overview
@@ -71,3 +72,6 @@ Top 3 Job Recommendations
 Skill Gap Analysis
       ↓
 Learning Roadmap
+=======
+# AI-Resume-Analyzer-Job-Recommendation-System
+>>>>>>> 48671faa4258c024a797ea146c3d62a79fa31f84
